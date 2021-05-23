@@ -1,0 +1,39 @@
+section{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#forButton{
+    text-align: center;
+}
+button {
+    margin: 40px 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(245,245,245);
+    padding: .3em 1em;
+    border: none;
+    border-radius: 3px;
+    background: #0c9c0d linear-gradient(#82d18d, #0c9c0d);
+    box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+  }
+  
+  button:active {
+    color: #fff;
+    text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+  }
+  
+.line{
+    display: flex;
+    /* height:20px; */
+    }
+
+.cell{
+    background-color: lightgrey;
+    width: 100vh;
+    margin: 1px 1px 1px 1px;
+    border-radius: 3px;
+}
+
